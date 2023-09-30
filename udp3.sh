@@ -1,7 +1,4 @@
 #!/bin/bash
-# Zivpn UDP Module installer
-# Creator Zahid Islam
-
 echo -e "Updating server"
 sudo apt-get update && apt-get upgrade -y
 systemctl stop zivpn.service 1> /dev/null 2> /dev/null
